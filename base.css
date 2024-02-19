@@ -318,3 +318,23 @@ input[type="button"] {
 
 .clearfix::after { clear: both; }
 
+
+
+To create a responsive layout that automatically adjusts its size based on the user's screen size (including both desktop monitors and mobile devices), you can use CSS media queries. Here's an example:
+
+css
+Copy code
+/* Default styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
