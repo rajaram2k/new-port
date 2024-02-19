@@ -12,49 +12,7 @@
 */
 /* Default styles for all screen sizes */
 /* CSS for adjusting the layout and responsiveness */
-.r_desc {
-  line-height: 1.6; /* Adjust line height for better readability */
-}
 
-/* Media query for mobile screens */
-@media only screen and (max-width: 767px) {
-  .r_desc p {
-    font-size: 16px; /* Adjust font size for better readability on smaller screens */
-  }
-  .r_reviewer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  .abs_img {
-    width: 100%; /* Ensure the image fills its container */
-    height: 200px; /* Set a specific height for the image */
-    background-size: cover; /* Ensure the image covers its container */
-    background-position: center; /* Center the background image */
-  }
-}
-
-/* General styles for the review section */
-.r_reviewer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 20px;
-}
-
-.abs_img {
-  flex: 0 0 30%; /* Set a specific width for the image container */
-  margin-right: 15px;
-}
-
-.title_holder {
-  flex: 1; /* Allow the title holder to take up remaining space */
-}
-
-/* Additional styles for the title holder */
-.title_holder h3 {
-  margin-top: 0; /* Remove top margin for better alignment */
  
 
  
