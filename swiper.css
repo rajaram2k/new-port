@@ -43,6 +43,18 @@ body {
     width: 90%;
   }
 }
+/* CSS for adjusting the r_desc class */
+.r_desc {
+  /* Add any other styles you need for this class */
+  line-height: 1.6; /* Adjust line height for better readability */
+}
+
+/* Media query for mobile screens */
+@media only screen and (max-width: 767px) {
+  .r_desc {
+    display: block; /* Change from inline to block to display as a normal paragraph */
+  }
+}
 
  
 
