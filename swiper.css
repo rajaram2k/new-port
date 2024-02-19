@@ -11,50 +11,51 @@
  * Released on: April 24, 2020
 */
 /* Default styles for all screen sizes */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-.container {
-  width: 90%;
-  margin: 0 auto;
-}
-
-/* Styles for screens smaller than 768px */
-@media (max-width: 767px) {
-  .container {
-    width: 100%;
-    padding: 0 10px;
-  }
-}
-
-/* Styles for screens between 768px and 991px */
-@media (min-width: 768px) and (max-width: 991px) {
-  .container {
-    width: 80%;
-  }
-}
-
-/* Styles for screens larger than 992px */
-@media (min-width: 992px) {
-  .container {
-    width: 90%;
-  }
-}
-/* CSS for adjusting the r_desc class */
+/* CSS for adjusting the layout and responsiveness */
 .r_desc {
-  /* Add any other styles you need for this class */
   line-height: 1.6; /* Adjust line height for better readability */
 }
 
 /* Media query for mobile screens */
 @media only screen and (max-width: 767px) {
-  .r_desc {
-    display: block; /* Change from inline to block to display as a normal paragraph */
+  .r_desc p {
+    font-size: 16px; /* Adjust font size for better readability on smaller screens */
+  }
+  .r_reviewer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .abs_img {
+    width: 100%; /* Ensure the image fills its container */
+    height: 200px; /* Set a specific height for the image */
+    background-size: cover; /* Ensure the image covers its container */
+    background-position: center; /* Center the background image */
   }
 }
+
+/* General styles for the review section */
+.r_reviewer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.abs_img {
+  flex: 0 0 30%; /* Set a specific width for the image container */
+  margin-right: 15px;
+}
+
+.title_holder {
+  flex: 1; /* Allow the title holder to take up remaining space */
+}
+
+/* Additional styles for the title holder */
+.title_holder h3 {
+  margin-top: 0; /* Remove top margin for better alignment */
+ 
 
  
 
