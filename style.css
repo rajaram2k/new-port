@@ -13,6 +13,41 @@
 /*	01) BASE
 /*---------------------------------------------------*/
 
+/* Default styles for all screen sizes */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Styles for screens smaller than 768px */
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+    padding: 0 10px;
+  }
+}
+
+/* Styles for screens between 768px and 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    width: 80%;
+  }
+}
+
+/* Styles for screens larger than 992px */
+@media (min-width: 992px) {
+  .container {
+    width: 90%;
+  }
+}
+
+
 html {
 	overflow-x: hidden;
 	padding: 0px;
