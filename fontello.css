@@ -1,11 +1,11 @@
 
 @font-face {
   font-family: 'xcon';
-  src: url('font/xcon.eot?4965248');
-  src: url('font/xcon.eot?4965248#iefix') format('embedded-opentype'),
-       url('font/xcon.woff2?4965248') format('woff2'),
-       url('font/xcon.woff?4965248') format('woff'),
-       url('font/xcon.ttf?4965248') format('truetype'),
+  src: url('xcon.eot?4965248');
+  src: url('xcon.eot?4965248#iefix') format('embedded-opentype'),
+       url('xcon.woff2?4965248') format('woff2'),
+       url('xcon.woff?4965248') format('woff'),
+       url('xcon.ttf?4965248') format('truetype'),
        url('xcon.svg?4965248#xcon') format('svg');
   font-weight: normal;
   font-style: normal;
@@ -220,19 +220,3 @@
 
 
 
-To create a responsive layout that automatically adjusts its size based on the user's screen size (including both desktop monitors and mobile devices), you can use CSS media queries. Here's an example:
-
-css
-Copy code
-/* Default styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
